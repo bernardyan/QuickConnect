@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+@import CoreLocation;
 
 @interface AppDelegate ()
+
+@property CLLocationManager *locationManager;
 
 @end
 
@@ -17,6 +20,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    
+    if([self.locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+        [self.locationManager requestAlwaysAuthorization];
+    }
     return YES;
 }
 

@@ -15,6 +15,7 @@
 		A1B8EF3B1D1BBA2700A884D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B8EF391D1BBA2700A884D0 /* LaunchScreen.storyboard */; };
 		A1B8EF461D1BBA2700A884D0 /* QuickConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B8EF451D1BBA2700A884D0 /* QuickConnectTests.m */; };
 		A1B8EF511D1BBA2700A884D0 /* QuickConnectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B8EF501D1BBA2700A884D0 /* QuickConnectUITests.m */; };
+		A1B8EF601D1BBBB000A884D0 /* PHQuickConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B8EF5F1D1BBBB000A884D0 /* PHQuickConnect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A1B8EF4C1D1BBA2700A884D0 /* QuickConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B8EF501D1BBA2700A884D0 /* QuickConnectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickConnectUITests.m; sourceTree = "<group>"; };
 		A1B8EF521D1BBA2700A884D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B8EF5E1D1BBBB000A884D0 /* PHQuickConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHQuickConnect.h; sourceTree = "<group>"; };
+		A1B8EF5F1D1BBBB000A884D0 /* PHQuickConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHQuickConnect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				A1B8EF2E1D1BBA2700A884D0 /* AppDelegate.h */,
 				A1B8EF2F1D1BBA2700A884D0 /* AppDelegate.m */,
+				A1B8EF5E1D1BBBB000A884D0 /* PHQuickConnect.h */,
+				A1B8EF5F1D1BBBB000A884D0 /* PHQuickConnect.m */,
 				A1B8EF311D1BBA2700A884D0 /* ViewController.h */,
 				A1B8EF321D1BBA2700A884D0 /* ViewController.m */,
 				A1B8EF341D1BBA2700A884D0 /* Main.storyboard */,
@@ -281,6 +286,7 @@
 			files = (
 				A1B8EF331D1BBA2700A884D0 /* ViewController.m in Sources */,
 				A1B8EF301D1BBA2700A884D0 /* AppDelegate.m in Sources */,
+				A1B8EF601D1BBBB000A884D0 /* PHQuickConnect.m in Sources */,
 				A1B8EF2D1D1BBA2700A884D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
